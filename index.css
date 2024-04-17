@@ -1,77 +1,78 @@
 body {
-        font-family: 'Montserrat', sans-serif;
-    }
+    font-family: "Montserrat", sans-serif;
+}
 
+.icon-link {
+    display: inline-block;
+    width: 50px; /* Defina o tamanho desejado */
+    height: 50px; /* Defina o tamanho desejado */
+    line-height: 30px; /* Centralize verticalmente o ícone */
+}
 
-
-
+.icon-img {
+    width: 100%;
+}
 
 /* Align left side content to the left */
 .navbar-nav {
-  margin-right: auto;
+    margin-right: auto;
 }
 
 /* Align right side content to the right */
 .ml-auto {
-  margin-left: auto;
+    margin-left: auto;
 }
 
- .btn {
-        display: flex;
-        align-items: center;
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn i {
+    margin-right: 14px; /* Adjust the space between the icon and text */
+    font-size: 34px; /* Adjust the size of the icon */
+}
+.btn h1 {
+    margin: 0; /* Remove any default margin */
+    font-size: 30px; /* Adjust the size of the text */
+}
+
+/* Ocultar a primeira barra de navegação em dispositivos móveis */
+@media (max-width: 767px) {
+    .navbar:first-of-type {
+        display: none;
+    }
+    /* Centralizar os elementos do rodapé */
+    footer .row {
         justify-content: center;
+    }
+
+    footer .col-md-3 {
         text-align: center;
     }
-    .btn i {
-        margin-right: 14px; /* Adjust the space between the icon and text */
-        font-size: 34px; /* Adjust the size of the icon */
-    }
-    .btn h1 {
-        margin: 0; /* Remove any default margin */
-        font-size: 30px; /* Adjust the size of the text */
-        
+
+    footer .col-md-3 ul {
+        padding-left: 0;
+        background-color: #c2ab7a;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
+    footer .col-md-3 ul li {
+        list-style: none;
+    }
 
+    footer .col-md-3 ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
 
-    /* Ocultar a primeira barra de navegação em dispositivos móveis */
-@media (max-width: 767px) {
-  .navbar:first-of-type {
-    display: none;
-  }
-/* Centralizar os elementos do rodapé */
-footer .row {
-  justify-content: center;
+    footer .col-md-3 ul li a:hover {
+        color: #c2ab7a;
+    }
+
+    .mt-4 h5 {
+        font-size: 13px;
+    }
 }
-
-footer .col-md-3 {
-  text-align: center;
-}
-
-footer .col-md-3 ul {
-  padding-left: 0;
-  background-color: #c2ab7a;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-footer .col-md-3 ul li {
-  list-style: none;
-}
-
-footer .col-md-3 ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-footer .col-md-3 ul li a:hover {
-  color: #c2ab7a;
-}
-
-.mt-4 h5{
-  font-size: 13px;
-}
-
-
-}
-
