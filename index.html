@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bootstrap Navbar</title>
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        />
+        <!-- Font Awesome CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Montserrat"
+        />
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <!-- Left side content -->
+                <div class="navbar-nav mr-auto">
+                    <!-- Telephone -->
+                    <span class="navbar-text mr-3">Telefone: XXXXXXXXX</span>
+                    <!-- Email -->
+                    <span class="navbar-text mr-3"
+                        >Email: example@example.com</span
+                    >
+                </div>
+                <!-- Right side content -->
+                <div class="navbar-nav ml-auto">
+                    <!-- Button for price -->
+                    <button class="btn btn-outline-dark mr-3">Price</button>
+                    <!-- Icons -->
+                    <a class="nav-item nav-link" href="#"
+                        ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a class="nav-item nav-link" href="#"
+                        ><i class="fab fa-facebook"></i
+                    ></a>
+                    <a class="nav-item nav-link" href="#"
+                        ><i class="fab fa-youtube"></i
+                    ></a>
+                    <a class="nav-item nav-link" href="#"
+                        ><i class="fab fa-whatsapp"></i
+                    ></a>
+                </div>
+            </div>
+        </nav>
+        <nav
+            class="navbar navbar-expand-lg navbar-light"
+            style="background-color: #093f97"
+        >
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img
+                        src="/imagens/resid rodrigues.jpeg"
+                        alt="Logo"
+                        height="80"
+                    />
+                </a>
+
+                <!-- Toggler/collapsible Button -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto" style="margin-right: 20px">
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown1"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                style="color: #c2ab7a"
+                            >
+                                Sobre
+                            </a>
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown1"
+                            >
+                                <a class="dropdown-item" href="#">Option 1</a>
+                                <a class="dropdown-item" href="#">Option 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown2"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                style="color: #c2ab7a"
+                            >
+                                Acomodações
+                            </a>
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown2"
+                            >
+                                <a class="dropdown-item" href="#">Option 1</a>
+                                <a class="dropdown-item" href="#">Option 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown3"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                style="color: #c2ab7a"
+                            >
+                                Serviços
+                            </a>
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown3"
+                            >
+                                <a class="dropdown-item" href="#">Option 1</a>
+                                <a class="dropdown-item" href="#">Option 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #c2ab7a"
+                                >Preços</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #c2ab7a"
+                                >Blog</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #c2ab7a"
+                                >Contato</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <img
+                src="/imagens/quartovistamar.jpg"
+                alt="Your Image"
+                style="width: 100%; height: 35rem"
+            />
+        </div>
+        <!-- Buttons below the image -->
+        <div class="container-fluid mt-0 pt-0">
+            <div class="row">
+                <div class="col-sm-6 pl-0 pr-0">
+                    <button
+                        class="btn btn-block rounded-0"
+                        style="
+                            height: 70px;
+                            background-color: #093f97;
+                            color: #c2ab7a;
+                        "
+                    >
+                        <i class="far fa-calendar-alt"></i>
+                        <h1>Reservas</h1>
+                    </button>
+                </div>
+                <div class="col-sm-6 pr-0 pl-0">
+                    <button
+                        class="btn btn-light btn-block rounded-0"
+                        style="height: 70px"
+                    >
+                        <i class="fab fa-whatsapp"></i>
+                        <h1>Falar por WhatsApp</h1>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Image Section with Title and Two Columns -->
+        <div class="container-fluid mt-4">
+            <h2 class="text-center mb-4" style="margin-top: 120px">
+                Desfrute de Floripa com a gente
+            </h2>
+            <style>
+                .card-body p {
+                    text-align: justify;
+                }
+            </style>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card border-0">
+                        <img
+                            src="/imagens/turismo.jpg"
+                            class="card-img-top mx-auto"
+                            alt="Image 1"
+                            style="width: 70%; margin-top: 120px"
+                        />
+                        <h3
+                            class="text-center mx-auto mb-4"
+                            style="font-size: 1.5rem; margin-top: 40px"
+                        >
+                            Turismo
+                        </h3>
+                        <div class="card-body text-center mx-auto mb-4">
+                            <p
+                                class="card-text"
+                                style="font-size: 1rem; max-width: 500px"
+                            >
+                                Para os visitantes turísticos que escolhem
+                                explorar Florianópolis, o Residencial Rodrigues
+                                se destaca como uma opção acolhedora e pronta
+                                para oferecer a melhor experiência em
+                                hospedagem. Com serviços de alta qualidade e
+                                acomodações confortáveis, estamos preparados
+                                para tornar sua estadia memorável e
+                                satisfatória.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0">
+                        <img
+                            src="/imagens/negocios.jpg"
+                            class="card-img-top mx-auto"
+                            alt="Image 2"
+                            style="width: 70%; margin-top: 120px"
+                        />
+                        <h3
+                            class="text-center mx-auto mb-4"
+                            style="font-size: 1.5rem; margin-top: 40px"
+                        >
+                            Negócios
+                        </h3>
+                        <div class="card-body text-center mx-auto mb-4">
+                            <p
+                                class="card-text"
+                                style="font-size: 1rem; max-width: 500px"
+                            >
+                                Para os visitantes que estão na cidade a
+                                negócios ou participando de eventos por alguns
+                                dias, o Residencial Rodrigues é a escolha ideal
+                                para uma estadia conveniente e eficiente. Com
+                                comodidades projetadas para atender às
+                                necessidades dos viajantes corporativos,
+                                oferecemos um ambiente confortável e serviços
+                                que facilitam o trabalho remoto e as reuniões de
+                                negócios.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img
+                src="/imagens/quartovistamar.jpg"
+                alt="Your Image"
+                style="width: 100%; height: 35rem"
+            />
+        </div>
+
+        <div class="container text-center mt-5">
+            <!-- Logo -->
+            <img
+                src="/imagens/resid rodrigues.jpeg"
+                alt="Logo da Empresa"
+                class="img-fluid"
+                style="max-width: 200px"
+            />
+
+            <!-- Frases -->
+            <div class="mt-4">
+                <h5 class="display-5 mb-4">
+                    Localizado próximo ao coração do centro da cidade.
+                </h5>
+                <h5 class="display-5 mb-4">
+                    Com uma vista deslumbrante da icônica Ponte Hercílio Luz, o
+                    Residencial Rodrigues oferece uma experiência única para os
+                    hóspedes que desejam explorar a cidade e seus arredores.
+                </h5>
+                <h5 class="display-5 mb-4">
+                    Próximo à movimentada orla da Beira Mar.
+                </h5>
+                <h5 class="display-5 mb-4">
+                    Com uma localização estratégica próxima a centros de
+                    negócios e eventos.
+                </h5>
+                <h5 class="display-5 mb-4">
+                    Combinando a conveniência de estar próximo ao centro da
+                    cidade com a tranquilidade e o conforto de um ambiente
+                    acolhedor e familiar.
+                </h5>
+            </div>
+        </div>
+        <!-- Buttons below the image -->
+        <div class="container-fluid mt-0 pt-0">
+            <div class="row">
+                <div class="col-sm-6 pl-0 pr-0">
+                    <button
+                        class="btn btn-block rounded-0"
+                        style="
+                            height: 70px;
+                            background-color: #093f97;
+                            color: #c2ab7a;
+                        "
+                    >
+                        <i class="far fa-calendar-alt"></i>
+                        <h1>Reservas</h1>
+                    </button>
+                </div>
+                <div class="col-sm-6 pr-0 pl-0">
+                    <button
+                        class="btn btn-light btn-block rounded-0"
+                        style="height: 70px"
+                    >
+                        <i class="fab fa-whatsapp"></i>
+                        <h1>Falar por WhatsApp</h1>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-dark text-light">
+            <div class="container py-4">
+                <div class="row">
+                    <!-- Primeira Coluna - Logo e ícones de localização -->
+                    <div class="col-md-3">
+                        <img
+                            src="/imagens/resid rodrigues.jpeg"
+                            alt="Logo"
+                            class="mb-3"
+                            style="max-width: 150px"
+                        />
+                        <div>
+                            <a href="link-para-waze"
+                                ><i class="fab fa-waze fa-lg mr-2"></i
+                            ></a>
+                            <a href="link-para-mapa"
+                                ><i class="fas fa-map-marker-alt fa-lg"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <!-- Segunda Coluna - Navs -->
+                    <div class="col-md-3">
+                        <h5>Navegação</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#top">Início</a></li>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#sobre">Sobre nós</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    <!-- Terceira Coluna - Endereço, Telefone e Email -->
+                    <div class="col-md-3">
+                        <h5>Contato</h5>
+                        <p>Endereço: Rua Exemplo, 123</p>
+                        <p>Telefone: (00) 1234-5678</p>
+                        <p>Email: exemplo@example.com</p>
+                    </div>
+                    <!-- Quarta Coluna - Redes Sociais -->
+                    <div class="col-md-3">
+                        <img
+                            src="/imagens/tripadvisor.png"
+                            alt="Logo"
+                            class="mb-3"
+                            style="max-width: 100px"
+                        />
+                        <div>
+                            <a href="link-instagram"
+                                ><i class="fab fa-instagram fa-lg mr-2"></i
+                            ></a>
+                            <a href="link-facebook"
+                                ><i class="fab fa-facebook-f fa-lg mr-2"></i
+                            ></a>
+                            <a href="link-youtube"
+                                ><i class="fab fa-youtube fa-lg mr-2"></i
+                            ></a>
+                            <a href="link-whatsapp"
+                                ><i class="fab fa-whatsapp fa-lg"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS (Optional) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
