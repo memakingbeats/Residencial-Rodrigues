@@ -16,6 +16,10 @@ body {
     line-height: 30px; /* Centralize verticalmente o ícone */
 }
 
+.mapa {
+    margin-left: 40px;
+}
+
 .icon-img {
     width: 100%;
 }
@@ -93,5 +97,10 @@ body {
     .btn h1 {
         margin: 0; /* Remove any default margin */
         font-size: 20px; /* Adjust the size of the text */
+    }
+
+    .mapa {
+        justify-content: center;
+        margin-left: 0px;
     }
 }
