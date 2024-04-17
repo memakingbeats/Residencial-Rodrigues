@@ -50,6 +50,9 @@ footer .col-md-3 {
 
 footer .col-md-3 ul {
   padding-left: 0;
+  background-color: #c2ab7a;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 footer .col-md-3 ul li {
