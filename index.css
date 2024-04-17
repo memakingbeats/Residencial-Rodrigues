@@ -61,7 +61,7 @@ body {
 
     footer .col-md-3 ul {
         padding-left: 0;
-        background-color: #c2ab7a;
+        background-color: #a48871;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -76,7 +76,7 @@ body {
     }
 
     footer .col-md-3 ul li a:hover {
-        color: #c2ab7a;
+        color: #a48871;
     }
 
     .mt-4 h5 {
